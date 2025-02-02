@@ -61,6 +61,8 @@ bart_model = BartForConditionalGeneration.from_pretrained("facebook/bart-base")
 
 bart_tokenizer = BartTokenizer.from_pretrained("facebook/bart-base")
 
+# Also you need to configure the sound driver channels accordinglt otherwise it wonn't work properly
+
 
 # ▶️ Usage
 Run the application:
