@@ -45,11 +45,7 @@ venv\Scripts\activate  # For Windows
 3️⃣ Install Dependencies
 pip install -r requirements.txt
 
-Now, you need to download the whisper and bart model to use it:
-
-To download whisper use:- f
-
-# Load the base Whisper model and processor
+# Now, you need to download the whisper and bart model to use it: Load the base Whisper model and processor
 
 rom transformers import WhisperProcessor, WhisperForConditionalGeneration
 
