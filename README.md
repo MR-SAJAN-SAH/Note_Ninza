@@ -34,10 +34,11 @@ Allows users to switch between Light Mode and Dark Mode with a button.
 ⚙️ Installation
 
 1️⃣ Clone the Repository
-git clone https://github.com/yourusername/NOTE_NINJA_REALTIME.git
+https://github.com/MR-SAJAN-SAH/Note_Ninza.git
 cd NOTE_NINJA_REALTIME
+
 2️⃣ Set Up a Virtual Environment (Recommended)
-python -m venv venv
+python -m venv venv 
 source venv/bin/activate  # For macOS/Linux
 venv\Scripts\activate  # For Windows
 
