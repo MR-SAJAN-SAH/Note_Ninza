@@ -69,7 +69,7 @@ Run the application:
 
 python src/app.py
 
-Click "Start" to begin recording.
+Click "Start" to begin recording.=> Now wait for 30 sec because it will update in every 30 sec
 
 Click "Stop" to end transcription.
 
