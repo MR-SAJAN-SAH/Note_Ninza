@@ -39,7 +39,7 @@ cd NOTE_NINJA_REALTIME
 
 2️⃣ Set Up a Virtual Environment (Recommended)
 python -m venv venv 
-source venv/bin/activate  # For macOS/Linux
+
 venv\Scripts\activate  # For Windows
 
 3️⃣ Install Dependencies
@@ -48,11 +48,17 @@ pip install -r requirements.txt
 Run the application:
 
 python src/app.py
+
 Click "Start" to begin recording.
+
 Click "Stop" to end transcription.
+
 Click "Play" to hear the summarized text.
+
 Click "PDF" to save the summary.
+
 Use "Translate" to convert the summary into another language.
+
 Use the Dark Mode Toggle on the top right to switch themes.
 
 📌 Requirements
