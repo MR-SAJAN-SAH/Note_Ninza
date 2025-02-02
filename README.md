@@ -48,19 +48,18 @@ pip install -r requirements.txt
 Now, you need to download the whisper and bart model to use it:
 
 To download whisper use:- f
-rom transformers import WhisperProcessor, WhisperForConditionalGeneration
 
 # Load the base Whisper model and processor
+
+rom transformers import WhisperProcessor, WhisperForConditionalGeneration
 
 whisper_model = WhisperForConditionalGeneration.from_pretrained("openai/whisper-base")
 
 whisper_processor = WhisperProcessor.from_pretrained("openai/whisper-base")
  
-and for Bart:-
+# Load the BART base model and tokenizer
 
 from transformers import BartTokenizer, BartForConditionalGeneration
-
-# Load the BART base model and tokenizer
 
 bart_model = BartForConditionalGeneration.from_pretrained("facebook/bart-base")
 
