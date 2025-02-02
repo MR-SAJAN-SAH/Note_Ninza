@@ -3,7 +3,7 @@ A real-time transcription, summarization, and text-to-speech application with a 
 
 <!-- Replace with the actual path to your logo -->
 
-📝 Overview
+#📝 Overview
 NOTE NINJA REALTIME is an AI-powered tool that allows users to:
 ✅ Transcribe speech to text in real time using Whisper
 ✅ Summarize transcriptions with BART
@@ -12,7 +12,7 @@ NOTE NINJA REALTIME is an AI-powered tool that allows users to:
 ✅ Translate summaries into different languages
 ✅ Switch between Light Mode and Dark Mode
 
-🚀 Features
+#🚀 Features
 --🎤 Real-Time Transcription
 --Uses OpenAI’s Whisper model for accurate speech-to-text conversion.
 --Captures and updates text in real time.
@@ -31,7 +31,7 @@ Allows users to switch between Light Mode and Dark Mode with a button.
 🖥️ UI Preview
 <!-- Replace with the actual path -->
 
-⚙️ Installation
+#⚙️ Installation
 
 1️⃣ Clone the Repository
 https://github.com/MR-SAJAN-SAH/Note_Ninza.git
@@ -66,7 +66,7 @@ bart_model = BartForConditionalGeneration.from_pretrained("facebook/bart-base")
 bart_tokenizer = BartTokenizer.from_pretrained("facebook/bart-base")
 
 
-▶️ Usage
+#▶️ Usage
 Run the application:
 
 python src/app.py
@@ -83,7 +83,7 @@ Use "Translate" to convert the summary into another language.
 
 Use the Dark Mode Toggle on the top right to switch themes.
 
-📌 Requirements
+#📌 Requirements
 Python 3.8+
 
 pip install -r requirements.txt
@@ -92,8 +92,8 @@ pip install -r requirements.txt
 ✔️ Cloud-based storage integration
 ✔️ Improved UI with customizable themes
 
-📜 License
+#📜 License
 MIT License © 2025 sajan kumar sah
 
-🙌 Contributors
+#🙌 Contributors
 👤 Sajan Kumar Sah
