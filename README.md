@@ -64,7 +64,7 @@ pip install -r requirements.txt
 ✔️ Improved UI with customizable themes
 
 📜 License
-MIT License © 2025 Your Name
+MIT License © 2025 sajan kumar sah
 
 🙌 Contributors
-👤 Your Name – Sajan Kumar Sah
+👤 Sajan Kumar Sah
